@@ -15,5 +15,4 @@ While I have several projects that use additional libraries, I kept the design f
 ## My Information
 
 Visit my [LinkedIn] (https://www.linkedin.com/in/alec-hapiak/)
-View my [Resume] (placeholder)
 My email: hapiakalec@gmail.com
