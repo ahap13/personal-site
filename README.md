@@ -1,6 +1,6 @@
 # Personal Site
 
-Link to the live site [here] (https://ahap13.github.io/personal-site/)
+Link to the live site [here](https://ahap13.github.io/personal-site/)
 
 Welcome to my personal site! This page is designed to act as a portfolio, giving an insight into who I am, my skills, experience, and projects! I am always open to new opportunities, feedback, and criticism so feel free to reach out!
 
@@ -14,5 +14,5 @@ While I have several projects that use additional libraries, I kept the design f
 
 ## My Information
 
-Visit my [LinkedIn] (https://www.linkedin.com/in/alec-hapiak/)
+Visit my [LinkedIn](https://www.linkedin.com/in/alec-hapiak/)
 My email: hapiakalec@gmail.com
