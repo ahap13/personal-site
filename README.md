@@ -1,6 +1,6 @@
 # Personal Site
 
-Link to the live site [here] (placeholder)
+Link to the live site [here] (https://ahap13.github.io/personal-site/)
 
 Welcome to my personal site! This page is designed to act as a portfolio, giving an insight into who I am, my skills, experience, and projects! I am always open to new opportunities, feedback, and criticism so feel free to reach out!
 
