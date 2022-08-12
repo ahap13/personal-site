@@ -6,9 +6,10 @@
 body {
   background-color: #B2FFA9;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
-nav {
+nav, .logo {
   display: none;
 }
 
@@ -43,30 +44,33 @@ h3 {
   width: 50%;
 }
 
-.about-me {
+#about-me {
   color: #136F63;
   padding: 5%;
   text-align: center;
 }
-.about-me p {
+#about-me p {
   font-size: 0.9rem;
   line-height: 1.2rem;
   text-align: center;
 }
 
-.experience {
+#experience {
   background-color: #6BBAEC;
   border-top-right-radius: 10rem;
   border-bottom-right-radius: 10rem;
   box-sizing: border-box;
   padding: 15% 0;
 }
-.experience h2 {
+#experience h2 {
   margin-bottom: 10%;
 }
 
 .exp-container {
   display: flex;
+}
+.exp-container h3 {
+  font-family: "Oswald", sans-serif;
 }
 
 .tab {
@@ -76,8 +80,12 @@ h3 {
 
 .tab button {
   background-color: inherit;
-  border: 1.5px outset #FFC482;
+  border: none;
+  border-right: 2.5px solid #FFC482;
+  border-bottom: 0.5px solid #FFC482;
   color: #fff;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
   padding: 2.8rem 10%;
   width: 90%;
   text-align: left;
@@ -99,7 +107,7 @@ h3 {
   line-height: 1.2rem;
   padding: 0 6% 0 6%;
   width: 70%;
-  border-left: none;
+  border: none;
 }
 .tabcontent:not(.show) {
   display: none;
@@ -115,38 +123,38 @@ h3 {
   margin: 2% 0;
 }
 
-.skills {
+#skills {
   color: #136F63;
   font-size: 1rem;
   padding: 10% 0;
 }
-.skills ul {
+#skills ul {
   text-align: center;
 }
-.skills ul li {
+#skills ul li {
   display: inline-block;
   padding: 5% 5%;
   position: relative;
   text-align: center;
 }
 
-.projects {
+#projects {
   background-color: #6BBAEC;
   border-top-right-radius: 10rem;
   border-bottom-right-radius: 10rem;
   color: #fff;
   padding: 10%;
 }
-.projects ul {
+#projects ul {
   text-align: center;
 }
-.projects ul li {
+#projects ul li {
   display: inline-block;
   margin: 7% 0;
   position: relative;
   text-align: center;
 }
-.projects ul li img {
+#projects ul li img {
   border: 5px solid #FFC482;
   margin-bottom: 2%;
   width: 100%;
@@ -170,4 +178,30 @@ footer button {
 footer img {
   margin: 0 5% 3% 5%;
   width: 15%;
+}
+
+@media (min-width: 481px) {
+  nav {
+    background-color: #3d7fa9;
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  nav .logo {
+    display: block;
+    margin: 0.5% 0 0.2% 2%;
+    width: 100%;
+  }
+  nav .logo img {
+    width: 3rem;
+  }
+  nav .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    margin: 1.5% 3%;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

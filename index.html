@@ -18,18 +18,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Nav -->
+    <nav>
+        <a class="logo" href="#"><img src="images/favicon.ico" alt="icon"></a>
+        <a class="nav-link" href="#about-me">About</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header -->
     <header>
-        <!-- Nav -->
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Experience</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-            <!-- Remainder of Header -->
             <h1>
                 Hi,
                 <br>
@@ -37,16 +38,18 @@
             </h1>
             <h3>A front-end developer</h3>
     </header>
+
     <!-- About Me Section -->
-    <section class="about-me">
+    <section id="about-me">
         <h2>About Me</h2>
         <p>I am a computer science student graduating from the University of Maryland Global Campus in winter 2022 and U.S. Army
             veteran seeking my first professional opportunity in the field. I possess fundamental web development skills as well
             as a foundation with Python. I'm always learning, improving, and eager to take on additional responsibilities. I
             currently hold an active TS/SCI security clearance with CI Polygraph.</p>
     </section>
+
     <!-- Experience Section -->
-    <section class="experience">
+    <section id="experience">
         <h2>Previous Work Experience</h2>
         <div class="exp-container">
             <div class="tab">
@@ -108,8 +111,9 @@
               </div>
         </div>
     </section>
+
     <!-- Skills Section -->
-    <section class="skills">
+    <section id="skills">
         <h2>Skills</h2>
         <ul>
             <li>HTML</li>
@@ -121,8 +125,9 @@
             <li>Git</li>
         </ul>
     </section>
+
     <!-- Projects Section -->
-    <section class="projects">
+    <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
@@ -167,8 +172,9 @@
             </li>
         </ul>
     </section>
+
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <a href="mailto:hapiakalec@gmail.com?subject=Let's Work Together!"><button>Contact Me!</button></a>
         <div class="icons">
             <a href="https://github.com/ahap13" target="_blank">
@@ -182,7 +188,8 @@
         <p>hapiakalec@gmail.com</p>
     </footer>
 
-    <!-- JS -->
+    <!-- JS/jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

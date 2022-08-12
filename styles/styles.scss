@@ -1,5 +1,6 @@
 // Colors
 $blue: #6BBAEC;
+$nav-blue: #3d7fa9;
 $green: #B2FFA9;
 $text-green: #136F63;
 $white: #fff;
@@ -19,9 +20,10 @@ $roboto: "Roboto", sans-serif;
 body {
     background-color: $green;
     font-family: $roboto;
+    scroll-behavior: smooth;
 }
 
-nav {
+nav, .logo {
     display: none;
 }
 
@@ -58,7 +60,7 @@ h3 {
 
 // About Me
 
-.about-me {
+#about-me {
     color: $text-green;
     padding: 5%;
     text-align: center;
@@ -71,7 +73,7 @@ h3 {
 
 // Previous Work Experience
 
-.experience {
+#experience {
     background-color: $blue;
     border-top-right-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -84,6 +86,9 @@ h3 {
 
 .exp-container {
     display: flex;
+    h3 {
+        font-family: $oswald;
+    }
 }
 
 .tab {
@@ -94,8 +99,12 @@ h3 {
 
 .tab button {
     background-color: inherit;
-    border: 1.5px outset $header-peach;
+    border: none;
+    border-right: 2.5px solid $header-peach;
+    border-bottom: .5px solid $header-peach;
     color: $white;
+    font-family: $oswald;
+    font-size: 1.1rem;
     padding: 2.8rem 10%;
     width: 90%;
     text-align: left;
@@ -118,7 +127,7 @@ h3 {
     line-height: 1.2rem;
     padding: 0 6% 0 6%;
     width: 70%;
-    border-left: none;
+    border: none;
     &:not(.show) {
         display: none;
     }
@@ -136,7 +145,7 @@ h3 {
 
 // Skills
 
-.skills {
+#skills {
     color: $text-green;
     font-size: 1rem;
     padding: 10% 0;
@@ -153,7 +162,7 @@ h3 {
 
 // Projects
 
-.projects {
+#projects {
     background-color: $blue;
     border-top-right-radius: 10rem;
     border-bottom-right-radius: 10rem;
@@ -199,5 +208,28 @@ footer {
 }
 
 @media (min-width: 481px) {
-
+    // Navbar
+    nav {
+        background-color: $nav-blue;
+        display: flex;
+        justify-content: flex-end;
+        opacity: .75;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        .logo {
+            display: block;
+            margin: .5% 0 .2% 2%;
+            width: 100%;
+            img {
+                width: 3rem;
+            }
+        }
+        .nav-link {
+            color: $white;
+            font-size: 1.1rem;
+            margin: 1.5% 3%;
+            text-decoration: none;
+        }
+    }
 }
