@@ -306,6 +306,7 @@ footer {
         border-bottom-right-radius: 15rem;
         padding: 5%;
         ul {
+            -webkit-columns: 2;
             columns: 2;
             li { 
                 margin: 5% 0;
@@ -315,9 +316,6 @@ footer {
                 p {
                     font-size: 1.25rem;
                 }
-            }
-            .last {
-                margin-left: -100%;
             }
         }
     }
