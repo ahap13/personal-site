@@ -19,174 +19,178 @@
 </head>
 <body>
 
-    <!-- Nav -->
-    <nav>
-        <a class="logo" href="#"><img src="images/favicon.ico" alt="icon"></a>
-        <a class="nav-link" href="#about-me">About</a>
-        <a class="nav-link" href="#experience">Experience</a>
-        <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#projects">Projects</a>
-        <a class="nav-link" href="#contact">Contact</a>
-    </nav>
+    <!-- Div wrapper for all content to fix coloring for iPhone top screen -->
+    <div class="container">
 
-    <!-- Header -->
-    <header>
-            <h1>
-                Hi,
-                <br>
-                <span>I'm </span>Alec
-            </h1>
-            <h3>A front-end developer</h3>
-    </header>
-
-    <!-- About Me Section -->
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>I am a computer science student graduating from the University of Maryland Global Campus in winter 2022 and U.S. Army
-            veteran seeking my first professional opportunity in the field. I possess fundamental web development skills as well
-            as a foundation with Python. I'm always learning, improving, and eager to take on additional responsibilities. I
-            currently hold an active TS/SCI security clearance with CI Polygraph.</p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <h2>Previous Work Experience</h2>
-        <div class="exp-container">
-            <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'bah')">Booz Allen Hamilton</button>
-                <button class="tablinks" onclick="openCity(event, 'jacobs')">Jacobs</button>
-                <button class="tablinks" onclick="openCity(event, 'bae')">BAE Systems</button>
-                <button class="tablinks" onclick="openCity(event, 'army')">U.S.Army</button>
-              </div>
-              
-              <div id="bah" class="tabcontent show">
-                <h3>Booz Allen Hamilton</h3>
-                <ul>
-                    <li>Developed a python program to partially automate corporate travel requests, helping to save an
-                        average of two hours per request by leveraging API’s to return average flight prices and per diem
-                        prices for specific localities.</li>
-                    <li>Gathered requirements from end-users pertaining to a multi-faceted counter weapons of mass destruction (CWMD)
-                        analytical workspace.</li>
-                    <li>Worked with developers and program leadership to develop workflows and ways forward en route to a minimum
-                        viable product (MVP).</li>
-                </ul>
-              </div>
-              
-              <div id="jacobs" class="tabcontent">
-                <h3>Jacobs</h3>
-                <ul>
-                    <li>Used TIDE and BI2R to create over 400 reports highlighting threats to national security.</li>
-                    <li>Performed quality control (QC) and edits to over 900 reports highlighting threats.</li>
-                    <li>Assisted in development of team members as deputy production lead and deputy team lead.</li>
-                    <li>Consistently returned same-day results on high priority and urgent tasks.</li>
-                </ul>
-              </div>
-              
-              <div id="bae" class="tabcontent">
-                <h3>BAE Systems</h3>
-                <ul>
-                    <li>Provided full-motion video (FMV) and imagery analysis supporting the Global War on Terror (GWOT) using MAAS
-                        systems and Google Earth.</li>
-                    <li>Responsible for exploiting both FMV and national technical means (NTM) imagery in a 24/7, 365 day work environment
-                        within a multi-agency Special Access Program.</li>
-                    <li>Supported current counterterrorism operations and frequently researched target areas related to the GWOT.</li>
-                    <li>Compiled secondary imagery intelligence products for use in briefings to high-level government officials including
-                        senior decision makers within the Intelligence Community and Federal Government.</li>
-                    <li>Completed time-sensitive all-source intelligence projects related to the GWOT current counterterrorism issues.</li>
-                </ul>
-              </div>
+        <!-- Nav -->
+        <nav>
+            <a class="logo" href="#"><img src="images/favicon.ico" alt="icon"></a>
+            <a class="nav-link" href="#about-me">About</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </nav>
     
-              <div id="army" class="tabcontent">
-                <h3>U.S. Army</h3>
-                <ul>
-                    <li>Used M3 and Palantir to produce over 70 intelligence products relating to high profile attacks and counter IED (C-IED)
-                        operations in support of Operations Enduring Freedom and Resolute Support.</li>
-                    <li>Collaborated with several other branches of military as well as other countries in support of joint operations
-                        in Afghanistan.</li>
-                    <li>Produced over 500 actionable targeting intelligence products during three large-scale training events.</li>
-                    <li>Served as database manager for three training events, resulting in a 75% efficiency increase of information
-                        passed between systems.</li>
-                    <li>Instructed 40+ personnel on data architecture behind digital intelligence systems.</li>
-                </ul>
-              </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>BootStrap</li>
-            <li>SASS/SCSS</li>
-            <li>jQuery</li>
-            <li>Git</li>
-        </ul>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>
-                <div>
-                    <a href="https://ahap13.github.io/sunnyside-agency-landing-page/" target="_blank">
-                        <img src="images/sunnyside-landing-pg.png" alt="sunnyside-pg-preview">
-                    </a>
-                    <p>"Sunnyside" Landing Page</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://ahap13.github.io/apparel-coming-soon-page/" target="_blank">
-                        <img src="images/apparel-coming-soon-pg.png" alt="coming-soon-pg-preview">
-                    </a>
-                    <p>Apparel Coming Soon Page</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://ahap13.github.io/faq-accordian-card/" target="_blank">
-                        <img src="images/faq-accordion-card.png" alt="faq-accordion-card-preview">
-                    </a>
-                    <p>FAQ Accordion Component</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://ahap13.github.io/interactive-rating-component/" target="_blank">
-                        <img src="images/interactive-rating-component.png" alt="interactive-rating-comp-preview">
-                    </a>
-                    <p>Interactive Rating Component</p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <a href="https://ahap13.github.io/qr-code-component/" target="_blank">
-                        <img src="images/qr-code-component.png" alt="qr-code-component-preview">
-                    </a>
-                    <p>QR Code Component</p>
-                </div>
-            </li>
-        </ul>
-    </section>
-
-    <!-- Footer -->
-    <footer id="contact">
-        <a href="mailto:hapiakalec@gmail.com?subject=Let's Work Together!"><button>Contact Me!</button></a>
-        <div class="icons">
-            <a href="https://github.com/ahap13" target="_blank">
-                <img src="images/icons/github-icon.png" alt="github-logo"></a>
-            <a href="https://www.linkedin.com/in/alec-hapiak/" target="_blank">
-                <img src="images/icons/linkedin-logo.png" alt="linkedin-logo"></a>
-            <a href="resume/Alec Hapiak CS Resume.pdf" target="_blank">
-                <img src="images/icons/resume.png" alt="my-resume">
-            </a>
-        </div>
-        <p>hapiakalec@gmail.com</p>
-    </footer>
+        <!-- Header -->
+        <header>
+                <h1>
+                    Hi,
+                    <br>
+                    <span>I'm </span>Alec
+                </h1>
+                <h3>A front-end developer</h3>
+        </header>
+    
+        <!-- About Me Section -->
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am a computer science student graduating from the University of Maryland Global Campus in winter 2022 and U.S. Army
+                veteran seeking my first professional opportunity in the field. I possess fundamental web development skills as well
+                as a foundation with Python. I'm always learning, improving, and eager to take on additional responsibilities. I
+                currently hold an active TS/SCI security clearance with CI Polygraph. I'm looking forward to working together!</p>
+        </section>
+    
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Previous Work Experience</h2>
+            <div class="exp-container">
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'bah')">Booz Allen Hamilton</button>
+                    <button class="tablinks" onclick="openCity(event, 'jacobs')">Jacobs</button>
+                    <button class="tablinks" onclick="openCity(event, 'bae')">BAE Systems</button>
+                    <button class="tablinks" onclick="openCity(event, 'army')">U.S.Army</button>
+                  </div>
+                  
+                  <div id="bah" class="tabcontent show">
+                    <h3>Booz Allen Hamilton</h3>
+                    <ul>
+                        <li>Developed a python program to partially automate corporate travel requests, helping to save an
+                            average of two hours per request by leveraging API’s to return average flight prices and per diem
+                            prices for specific localities.</li>
+                        <li>Gathered requirements from end-users pertaining to a multi-faceted counter weapons of mass destruction (CWMD)
+                            analytical workspace.</li>
+                        <li>Worked with developers and program leadership to develop workflows and ways forward en route to a minimum
+                            viable product (MVP).</li>
+                    </ul>
+                  </div>
+                  
+                  <div id="jacobs" class="tabcontent">
+                    <h3>Jacobs</h3>
+                    <ul>
+                        <li>Used TIDE and BI2R to create over 400 reports highlighting threats to national security.</li>
+                        <li>Performed quality control (QC) and edits to over 900 reports highlighting threats.</li>
+                        <li>Assisted in development of team members as deputy production lead and deputy team lead.</li>
+                        <li>Consistently returned same-day results on high priority and urgent tasks.</li>
+                    </ul>
+                  </div>
+                  
+                  <div id="bae" class="tabcontent">
+                    <h3>BAE Systems</h3>
+                    <ul>
+                        <li>Provided full-motion video (FMV) and imagery analysis supporting the Global War on Terror (GWOT) using MAAS
+                            systems and Google Earth.</li>
+                        <li>Responsible for exploiting both FMV and national technical means (NTM) imagery in a 24/7, 365 day work environment
+                            within a multi-agency Special Access Program.</li>
+                        <li>Supported current counterterrorism operations and frequently researched target areas related to the GWOT.</li>
+                        <li>Compiled secondary imagery intelligence products for use in briefings to high-level government officials including
+                            senior decision makers within the Intelligence Community and Federal Government.</li>
+                        <li>Completed time-sensitive all-source intelligence projects related to the GWOT current counterterrorism issues.</li>
+                    </ul>
+                  </div>
+        
+                  <div id="army" class="tabcontent">
+                    <h3>U.S. Army</h3>
+                    <ul>
+                        <li>Used M3 and Palantir to produce over 70 intelligence products relating to high profile attacks and counter IED (C-IED)
+                            operations in support of Operations Enduring Freedom and Resolute Support.</li>
+                        <li>Collaborated with several other branches of military as well as other countries in support of joint operations
+                            in Afghanistan.</li>
+                        <li>Produced over 500 actionable targeting intelligence products during three large-scale training events.</li>
+                        <li>Served as database manager for three training events, resulting in a 75% efficiency increase of information
+                            passed between systems.</li>
+                        <li>Instructed 40+ personnel on data architecture behind digital intelligence systems.</li>
+                    </ul>
+                  </div>
+            </div>
+        </section>
+    
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>BootStrap</li>
+                <li>SASS/SCSS</li>
+                <li>jQuery</li>
+                <li>Git</li>
+            </ul>
+        </section>
+    
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div>
+                        <a href="https://ahap13.github.io/sunnyside-agency-landing-page/" target="_blank">
+                            <img src="images/sunnyside-landing-pg.png" alt="sunnyside-pg-preview">
+                        </a>
+                        <p>"Sunnyside" Landing Page</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://ahap13.github.io/apparel-coming-soon-page/" target="_blank">
+                            <img src="images/apparel-coming-soon-pg.png" alt="coming-soon-pg-preview">
+                        </a>
+                        <p>Apparel Coming Soon Page</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://ahap13.github.io/faq-accordian-card/" target="_blank">
+                            <img src="images/faq-accordion-card.png" alt="faq-accordion-card-preview">
+                        </a>
+                        <p>FAQ Accordion Component</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="https://ahap13.github.io/interactive-rating-component/" target="_blank">
+                            <img src="images/interactive-rating-component.png" alt="interactive-rating-comp-preview">
+                        </a>
+                        <p>Interactive Rating Component</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a class="last" href="https://ahap13.github.io/qr-code-component/" target="_blank">
+                            <img src="images/qr-code-component.png" alt="qr-code-component-preview">
+                        </a>
+                        <p class="last">QR Code Component</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    
+        <!-- Footer -->
+        <footer id="contact">
+            <a href="mailto:hapiakalec@gmail.com?subject=Let's Work Together!"><button>Contact Me!</button></a>
+            <div class="icons">
+                <a href="https://github.com/ahap13" target="_blank">
+                    <img src="images/icons/github-icon.png" alt="github-logo"></a>
+                <a href="https://www.linkedin.com/in/alec-hapiak/" target="_blank">
+                    <img src="images/icons/linkedin-logo.png" alt="linkedin-logo"></a>
+                <a href="resume/Alec Hapiak CS Resume.pdf" target="_blank">
+                    <img src="images/icons/resume.png" alt="my-resume">
+                </a>
+            </div>
+            <p>hapiakalec@gmail.com</p>
+        </footer>
+    </div>
 
     <!-- JS/jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

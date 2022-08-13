@@ -3,10 +3,18 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #B2FFA9;
+  background-color: #6BBAEC;
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+}
+
+.container {
+  background-color: #B2FFA9;
 }
 
 nav, .logo {
@@ -170,10 +178,14 @@ footer button {
   border-radius: 10rem;
   background-color: #FFC482;
   color: #136F63;
+  cursor: pointer;
   font-family: "Oswald", sans-serif;
   font-size: 1.7rem;
   margin-bottom: 10%;
   padding: 7%;
+}
+footer button:hover {
+  background-color: #fdd6aa;
 }
 footer img {
   margin: 0 5% 3% 5%;
@@ -181,6 +193,9 @@ footer img {
 }
 
 @media (min-width: 481px) {
+  h2 {
+    font-size: 3rem;
+  }
   nav {
     background-color: #3d7fa9;
     display: flex;
@@ -189,6 +204,7 @@ footer img {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
   }
   nav .logo {
     display: block;
@@ -203,5 +219,82 @@ footer img {
     font-size: 1.1rem;
     margin: 1.5% 3%;
     text-decoration: none;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 5%;
+  }
+  header {
+    padding: 12% 0 10% 25%;
+  }
+  #about-me > p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: auto;
+    width: 75%;
+  }
+  #experience {
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+    padding: 7% 5%;
+  }
+  #experience h3 {
+    font-size: 2rem;
+  }
+  .tab button {
+    font-size: 1.5rem;
+  }
+  .tabcontent {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    padding: 0 6% 0 6%;
+    width: 70%;
+  }
+  #skills {
+    font-size: 2rem;
+    padding: 3% 0;
+    text-align: center;
+  }
+  #skills ul > li {
+    padding: 2% 5%;
+  }
+  #projects {
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+    padding: 5%;
+  }
+  #projects ul {
+    -moz-columns: 2;
+         columns: 2;
+  }
+  #projects ul li {
+    margin: 5% 0;
+  }
+  #projects ul li img {
+    width: 80%;
+  }
+  #projects ul li p {
+    font-size: 1.25rem;
+  }
+  #projects ul .last {
+    margin-left: -100%;
+  }
+  footer {
+    padding: 5% 0 2% 0;
+  }
+  footer button {
+    font-size: 3rem;
+    margin-bottom: 3%;
+    padding: 2%;
+  }
+  footer img {
+    margin: 0 3% 0 3%;
+    width: 3%;
+  }
+  footer p {
+    margin-top: 2%;
   }
 }/*# sourceMappingURL=styles.css.map */
