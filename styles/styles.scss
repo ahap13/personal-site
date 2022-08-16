@@ -284,6 +284,10 @@ footer {
         width: 75%;
     }
 
+    #about-me > img {
+        width: 25%;
+    }
+
     // Experience
     #experience {
         border-top-right-radius: 15rem;
@@ -310,6 +314,9 @@ footer {
         text-align: center;
         ul > li { 
             padding: 2% 5%;
+        }
+        img {
+            width: 20%;
         }
     }
 

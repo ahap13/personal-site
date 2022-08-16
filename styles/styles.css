@@ -249,6 +249,9 @@ footer img {
     margin: auto;
     width: 75%;
   }
+  #about-me > img {
+    width: 25%;
+  }
   #experience {
     border-top-right-radius: 15rem;
     border-bottom-right-radius: 15rem;
@@ -273,6 +276,9 @@ footer img {
   }
   #skills ul > li {
     padding: 2% 5%;
+  }
+  #skills img {
+    width: 20%;
   }
   #projects {
     border-top-right-radius: 15rem;
