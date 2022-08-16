@@ -31,6 +31,12 @@ body {
     background-color: $green;
 }
 
+hr {
+    border: 1px solid $header-peach;
+    margin: 5% auto;
+    width: 50%;
+}
+
 nav, .logo {
     display: none;
 }
@@ -76,6 +82,9 @@ h3 {
         font-size: .9rem;
         line-height: 1.2rem;
         text-align: center;
+    }
+    img {
+        width: 50%;
     }
 }
 
@@ -157,6 +166,7 @@ h3 {
     color: $text-green;
     font-size: 1rem;
     padding: 10% 0;
+    text-align: center;
     ul {
         text-align:center;
         li { 
@@ -165,6 +175,9 @@ h3 {
             position: relative;
             text-align: center;
         }
+    }
+    img {
+        width: 35%;
     }
 }
 

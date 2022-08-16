@@ -17,6 +17,12 @@ body {
   background-color: #B2FFA9;
 }
 
+hr {
+  border: 1px solid #FFC482;
+  margin: 5% auto;
+  width: 50%;
+}
+
 nav, .logo {
   display: none;
 }
@@ -61,6 +67,9 @@ h3 {
   font-size: 0.9rem;
   line-height: 1.2rem;
   text-align: center;
+}
+#about-me img {
+  width: 50%;
 }
 
 #experience {
@@ -135,6 +144,7 @@ h3 {
   color: #136F63;
   font-size: 1rem;
   padding: 10% 0;
+  text-align: center;
 }
 #skills ul {
   text-align: center;
@@ -144,6 +154,9 @@ h3 {
   padding: 5% 5%;
   position: relative;
   text-align: center;
+}
+#skills img {
+  width: 35%;
 }
 
 #projects {
